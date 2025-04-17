@@ -1,0 +1,9 @@
+body {
+    background-color: antiquewhite;
+    table { background:darksalmon ; }
+    table tr:nth-child(odd) { background-color:cadetblue ; }
+    table tr:nth-child(even) { background-color:darkgrey ; }
+
+
+
+}
