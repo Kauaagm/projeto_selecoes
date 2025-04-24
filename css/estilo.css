@@ -1,9 +1,27 @@
-body {
-    background-color: antiquewhite;
-    table { background:darksalmon ; }
-    table tr:nth-child(odd) { background-color:cadetblue ; }
-    table tr:nth-child(even) { background-color:darkgrey ; }
 
-
-
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: rgb(0, 0, 0);
 }
+th {
+    text-align: center;
+    padding: 3px;
+}
+td {
+    text-align: left;
+    padding: 3px;
+}
+tr:nth-child(even) {background-color: #b96900d7;}
+tr:nth-child(odd) {background-color: #b96900d7;}
+th {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+table{
+    width: 100%;
+ }
+ tr:hover {
+    background-color: rgba(25, 0, 255, 0.74);
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+ }
